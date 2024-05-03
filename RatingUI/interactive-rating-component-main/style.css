@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:  hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+.container{
+  height: 100vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.star{
+  background-color: hsl(217, 12%, 63%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.content h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.content p{
+  width: 330px;
+  font-size: 16px;
+}
+
+.rating-btn{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.rating-btn button{
+  gap: 10px;
+  background-color:  hsl(216, 12%, 54%);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.rating-btn button:hover{
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn{
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
